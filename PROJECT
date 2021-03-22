@@ -1,0 +1,7 @@
+domain: example.com
+repo: cloudbuilder
+resources:
+- group: cloudbuilder
+  kind: Compute
+  version: v1alpha1
+version: "2"

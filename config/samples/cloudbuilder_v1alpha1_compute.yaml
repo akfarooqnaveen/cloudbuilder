@@ -1,0 +1,11 @@
+apiVersion: cloudbuilder.example.com/v1alpha1
+kind: Compute
+metadata:
+  name: DemoInstance
+spec:
+  CloudProviderName: gcp
+  ComputeName: DemoInstance
+  OSImage:
+  Shape:
+  Region:
+  Zone:
