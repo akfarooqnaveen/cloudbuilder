@@ -1,11 +1,11 @@
 apiVersion: cloudbuilder.example.com/v1alpha1
 kind: Compute
 metadata:
-  name: DemoInstance
+  name: demoinstance
 spec:
-  CloudProviderName: gcp
-  ComputeName: DemoInstance
-  OSImage:
-  Shape:
-  Region:
-  Zone:
+  cloudprovidername: gcp
+  computename: DemoInstance
+  osimage: centos-8
+  shape: e2-micro
+  region: europe-west2
+  zone: europe-west2-c
