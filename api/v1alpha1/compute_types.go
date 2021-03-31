@@ -29,8 +29,8 @@ type ComputeSpec struct {
 	// Important: Run "make" to regenerate code after modifying this file
 
 	// Foo is an example field of Compute. Edit Compute_types.go to remove/update
-	CloudProviderName string `json:"cloudprovidername,omitempty"`
-	ComputeName       string `json:"computename,omitempty"`
+	CloudProviderName string `json:"cloudprovidername"`
+	ComputeName       string `json:"computename"`
 	OSImage           string `json:"osimage"`
 	Shape             string `json:"shape"`
 	Region            string `json:"region"`
