@@ -35,6 +35,8 @@ type ComputeSpec struct {
 	Shape             string `json:"shape"`
 	Region            string `json:"region"`
 	Zone              string `json:"zone"`
+	Network           string `json:"network"`
+	Subnet            string `json:"subnet"`
 }
 
 // ComputeStatus defines the observed state of Compute

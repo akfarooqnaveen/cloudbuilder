@@ -40,18 +40,26 @@ spec:
               type: string
             computename:
               type: string
+            network:
+              type: string
             osimage:
               type: string
             region:
               type: string
             shape:
               type: string
+            subnet:
+              type: string
             zone:
               type: string
           required:
+          - cloudprovidername
+          - computename
+          - network
           - osimage
           - region
           - shape
+          - subnet
           - zone
           type: object
         status:

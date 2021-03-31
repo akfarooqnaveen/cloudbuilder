@@ -4,8 +4,10 @@ metadata:
   name: demoinstance
 spec:
   cloudprovidername: gcp
-  computename: DemoInstance
-  osimage: centos-8
+  computename: demoinstance1
+  osimage: centos-8-v20210316
   shape: e2-micro
   region: europe-west2
   zone: europe-west2-c
+  network: manual-eu-west-2
+  subnet: manual-eu-west-2
